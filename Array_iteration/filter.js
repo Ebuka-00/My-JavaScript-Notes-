@@ -1,5 +1,5 @@
-// The .filter() method creates a new array by filtering out elements from the original array
-//  It uses a callback function to decide which elements to keep.
+// The .filter() = A method creates a new array by filtering out elements from the original array
+//                 It uses a callback function to decide which elements to keep.
 // Using arrow function 
 // declared number to be array of four elements
 let numbers = [2, 4, 9, 5, 8, 10];

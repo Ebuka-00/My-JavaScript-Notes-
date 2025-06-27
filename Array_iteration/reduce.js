@@ -1,4 +1,4 @@
-// .reduce is method which reduce the elements of an array to a single value 
+// .reduce = is method which reduce the elements of an array to a single value 
 
 // Using named function 
 

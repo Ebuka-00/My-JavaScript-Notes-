@@ -1,6 +1,6 @@
-//The forEach() method is used to loop through each element in
-//  an array and run a specific function (called a callback) on each one.
-//  the three important thing array.forEach(callbackfunction)
+//The forEach() = A method is used to loop through each element in
+//            an array and run a specific function (called a callback) on each one.
+//            the three important thing array.forEach(callbackfunction)
 
 // 1 Using a named function 
 //  Declare an array named 'fruits' containing four element 
