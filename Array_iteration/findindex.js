@@ -16,4 +16,3 @@ const result  = number.findIndex(num => (num === 6))
 console.log(result)// output 5
 
 
-2

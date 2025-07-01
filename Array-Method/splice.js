@@ -1,5 +1,4 @@
-//Array .splice
-//add or removes elements from the original array 
+//.splice = A method that add or removes elements from the original array 
 const color2 =['yellow','purple','gray','black']
 color2.splice(3)
 console.log(color2)

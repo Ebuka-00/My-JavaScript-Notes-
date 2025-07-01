@@ -14,41 +14,15 @@ function greeting3(Sup) {
     Sup()//invoke the next callback 
 }
 //Define a fumction greeting4 that take a callback named 'Power'
-function  greeting4(Power){
-console.log('All greeting is good ')//prints 'All greeting is good'
-Power()
+function greeting4(hey){
+    console.log('All greeting is good ')//prints 'All greeting is good'
+    hey()
 }
-// kick 
+// callback hell begin here 
 greeting1(() => {
     greeting2(() => {
         greeting3(() => {
-            greeting4(()=> {
-                console.log('All greeting is good')
-            })
-
-        })
-
-    })
-})
-function greeting1(hello) {
-    console.log('Good morning')
-    hello()
-}
-function greeting2(Hi) {
-    console.log('good afternoon')
-    Hi()
-}
-function greeting3(sup) {
-    console.log('good evening')
-    sup()
-}
-function  greeting4(power){
-console.log('All greeting is good ')
-}
-greeting1(() => {
-    greeting2(() => {
-        greeting3(() => {
-            greeting4(()=> {
+            greeting4(() => {
                 console.log('All greeting is good')
             })
 
